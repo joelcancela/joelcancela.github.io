@@ -1,0 +1,59 @@
+{
+  "navbar": {
+    "home": "Home",
+    "projects": "Projects",
+    "workExperience": "Work experience",
+    "internships": "Internships",
+    "summerJobs": "Summer jobs",
+    "links": "Links",
+    "contact": "Contact",
+    "personalLinks": "Personal links",
+    "externalLinks": "External links",
+    "pierreWebsite": "Pierre Rainero's website",
+    "lang": {
+      "fr": "French",
+      "en": "English"
+    }
+  },
+  "mainPage": {
+    "profile": {
+      "jobTitle": "<span class=\"sky-fl\">Software</span>&nbsp;<span class=\"sky-fl\">Development</span>&nbsp;<span class=\"sky-fl\">Engineer</span>",
+      "graduatedFrom": "Graduated from",
+      "speciality": "Speciality",
+      "software": "Software",
+      "architecture": "Architecture",
+      "contactMe": "Contact me",
+      "aboutMe1": "From the age of eight I started to develop an interest in computers. Since then I've been discovering computer science.",
+      "aboutMe2": "My first PC was an IBM 300GL under Windows XP. My passion for video games made me discover some notions like Batch scripting, HTML and the setup of a web server. Curious by nature, I often browse developer forums in order to customize my devices (PC, Games consoles, Phones).",
+      "aboutMe3": "My primary qualities are adaptation, organization and perseverance.",
+      "aboutMe4": "My career goal is to become a fully-qualified and experienced computer sciences engineer, with the longer-term aspiration of moving into project management."
+    },
+    "projects": {
+      "title": "Projects",
+      "subtitle": "Discover my own projects and collaborative projects.",
+      "selector": {
+        "all": "all",
+        "personal": "personal",
+        "professional": "professional",
+        "school": "school"
+      },
+      "knowMore": "Learn more",
+      "close": "Close"
+    }
+  },
+  "contactPage": {
+    "contact": "Contact",
+    "email": "Email address",
+    "legalNotices": "Legal notices",
+    "creator": "Website creator",
+    "hosting": "Web hosting-provider",
+    "availability": "Availability",
+    "availabilityText": "This website is accessible 24/7 without interruption, scheduled or not, for the needs of its maintenance or following the will of its owner. The latter therefore reserves the right to make this service unavailable at any time. It cannot be held responsible for any damage, whatever its nature, resulting from the unavailability of the service.",
+    "responsibility": "Responsibility",
+    "responsibilityText": "The <a href=\"https://joelcancela.github.io\">joelcancela.github.io</a> site cannot be held responsible for typographical errors or inaccuracies appearing on the service, or for some damage suffered as a result of its use. The user remains responsible for his equipment and its use, and he alone bears the direct or indirect costs following his connection to the Internet.\nThis site uses Javascript technology. To access all the features of <a href=\"https://joelcancela.github.io\">joelcancela.github.io</a>, the user agrees to use recent equipment, not containing any virus and with the updates made from his browser. The user releases the responsibility of <a href=\"https://joelcancela.github.io\">joelcancela.github.io</a> for any damage that he may suffer or cause to be suffered, directly or indirectly, due to the use of the services offered. Only the responsibility of the user is engaged by the use of the proposed service and this expressly releases the site and its owner from any responsibility towards third parties.",
+    "protectedDomains": "Protected domains",
+    "protectedDomainsText": "The above mentions cover the entire <a href=\"https://joelcancela.github.io\">joelcancela.github.io</a> site.",
+    "legalExtracts": "Legal extracts",
+    "copyrightTitle": "Copyright in France (Copyright ©):"
+  }
+}

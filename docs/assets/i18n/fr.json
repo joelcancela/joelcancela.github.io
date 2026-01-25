@@ -1,0 +1,59 @@
+{
+  "navbar": {
+    "home": "Accueil",
+    "projects": "Projets",
+    "workExperience": "Expérience professionnelle",
+    "internships": "Stages",
+    "summerJobs": "Jobs d'été",
+    "links": "Liens",
+    "contact": "Contact",
+    "personalLinks": "Liens personnels",
+    "externalLinks": "Liens externes",
+    "pierreWebsite": "Site de Pierre Rainero",
+    "lang": {
+      "fr": "Français",
+      "en": "Anglais"
+    }
+  },
+  "mainPage": {
+    "profile": {
+      "jobTitle": "<span class=\"sky-fl\">Ingénieur</span>&nbsp;<span class=\"sky-fl\">Développement</span>&nbsp;<span class=\"sky-fl\">Logiciel</span>",
+      "graduatedFrom": "Diplômé de",
+      "speciality": "Spécialité",
+      "software": "Architectures",
+      "architecture": "Logicielles",
+      "contactMe": "Me contacter",
+      "aboutMe1": "Depuis l'âge de huit ans je suis intéressé par l'informatique, cet intérêt a fini par devenir une passion et j'en ai fait mon objet d'étude.",
+      "aboutMe2": "J'ai fait mes débuts sur un PC IBM 300GL sous XP. Ma passion pour les jeux vidéos m'a amené à découvrir quelques notions par moi-même (le batch, le HTML et la configuration d'un serveur web parmi tant d'autres). Curieux de nature, je parcours souvent les forums de développeurs afin de personnaliser mes appareils électroniques (PC, consoles, portable, etc.).",
+      "aboutMe3": "Mes qualités premières sont l'adaptation, l'ordre et la persévérance.",
+      "aboutMe4": "Mon objectif de carrière est de devenir un ingénieur en informatique qualifié et expérimenté, et pourquoi pas sur le long terme passer sur de la gestion de projet."
+    },
+    "projects": {
+      "title": "Projets",
+      "subtitle": "Découvrez mes réalisations personnelles et collaborations.",
+      "selector": {
+        "all": "tout",
+        "personal": "personnel",
+        "professional": "professionnel",
+        "school": "scolaire"
+      },
+      "knowMore": "En savoir plus",
+      "close": "Fermer"
+    }
+  },
+  "contactPage": {
+    "contact": "Contact",
+    "email": "Adresse email",
+    "legalNotices": "Mentions légales",
+    "creator": "Créateur du site",
+    "hosting": "Hébergeur",
+    "availability": "Accessibilité",
+    "availabilityText": "Le présent site web est accessible 24/24h et 7/7j sauf interruption, programmée ou non, pour les besoins de sa maintenance ou suite à la volonté de son propriétaire. Ce dernier se réserve par conséquent le droit de rendre ce service indisponible à tout moment. Il ne saurait être tenu pour responsable de tout dommage, quelle qu’en soit la nature, résultant d’une indisponibilité du service.",
+    "responsibility": "Responsabilité",
+    "responsibilityText": "Le site <a href=\"https://joelcancela.github.io\">joelcancela.github.io</a> ne saurait être tenu responsable des erreurs typographiques ou inexactitudes apparaissant sur le service, ou de quelques dommages subis résultant de son utilisation. L’utilisateur reste responsable de son équipement et de son utilisation, de même il supporte seul les coûts directs ou indirects suite à sa connexion à Internet.<br> Ce site utilise la technologie Javascript. Pour accéder à l'ensemble des fonctionnalités de <a href=\"https://joelcancela.github.io\">joelcancela.github.io</a>, l’utilisateur s’engage à utiliser un matériel récent, ne contenant pas de virus et avec les mises à jour faites de son navigateur. L’utilisateur dégage la responsabilité de <a href=\"https://joelcancela.github.io\">joelcancela.github.io</a> pour tout préjudice qu’il pourrait subir ou faire subir, directement ou indirectement, du fait de l'utilisation des services proposés. Seule la responsabilité de l’utilisateur est engagée par l’utilisation du service proposé et celui-ci dégage expressément le site et son propriétaire de toute responsabilité vis à vis de tiers.",
+    "protectedDomains": "Espaces protégés",
+    "protectedDomainsText": "Les mentions ci-dessus couvrent l'ensemble du site <a href=\"https://joelcancela.github.io\">joelcancela.github.io</a>.",
+    "legalExtracts": "Extraits légaux",
+    "copyrightTitle": "Droit d'auteur en France (Copyright©) :"
+  }
+}

@@ -1,0 +1,17 @@
+<div class="container">
+  <div class="row justify-content-center portfolio-sorting list-group-horizontal">
+    <a (click)="currentFilter=portfolioTypeFilterEnum.ALL" [class.active]="currentFilter === portfolioTypeFilterEnum.ALL"
+       class="filter-link mr-2">{{'mainPage.projects.selector.all' | translate}}</a>
+    <a (click)="currentFilter=portfolioTypeFilterEnum.PERSONAL" [class.active]="currentFilter === portfolioTypeFilterEnum.PERSONAL"
+       class="filter-link mr-2">{{'mainPage.projects.selector.personal' | translate}}</a>
+    <a (click)="currentFilter=portfolioTypeFilterEnum.PROFESSIONAL" [class.active]="currentFilter === portfolioTypeFilterEnum.PROFESSIONAL"
+       class="filter-link mr-2">{{'mainPage.projects.selector.professional' | translate}}</a>
+    <a (click)="currentFilter=portfolioTypeFilterEnum.SCHOOL" [class.active]="currentFilter === portfolioTypeFilterEnum.SCHOOL"
+       class="filter-link mr-2">{{'mainPage.projects.selector.school' | translate}}</a>
+  </div>
+  <div class="row">
+    <ngjc-portfolio-item *ngFor="let project of projects | portfolioFilter:currentFilter" [@inOutAnimation]
+                         [project]="project"
+                         class="col-12 col-sm-6 col-md-4 my-2"></ngjc-portfolio-item>
+  </div>
+</div>

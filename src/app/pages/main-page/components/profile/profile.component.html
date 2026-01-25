@@ -1,0 +1,47 @@
+<div class="row mb-4">
+  <div class="col-sm-12 col-md-3">
+    <img alt="photo de profil" class="img-fluid img-profile" src="assets/img/profil.png">
+  </div>
+  <div class="col-sm-12 col-md-9">
+    <h1 class="underline"><span class="sky">Joël</span> Cancela Vaz</h1>
+    <div class="my-3">
+      <h2 [innerHTML]="'mainPage.profile.jobTitle' | translate | trustHtml"></h2>
+    </div>
+    <div class="row">
+      <div class="col-sm-12 col-md-6 my-2">
+        <h3>{{'mainPage.profile.graduatedFrom' | translate}}&nbsp;<a
+          href="https://polytech.univ-cotedazur.fr/formations/formations-ingenieurs/ingenieur-informatique"
+          rel="noreferrer" target="_blank">Polytech Nice-Sophia</a></h3>
+        <h3>{{'mainPage.profile.speciality' | translate}}&nbsp;<span
+          class="sky-fl">{{'mainPage.profile.software' | translate}}&nbsp;</span>
+          <span class="sky-fl">{{'mainPage.profile.architecture' | translate}}&nbsp;</span></h3>
+      </div>
+      <div class="col-sm-12 col-md-5">
+        <a href="https://www.youracclaim.com/badges/24f598f8-7bd3-4691-b3d4-fe87cbc25a7a" rel="noreferrer"
+           target="_blank">
+          <img alt="Oracle Certified Associate, Java SE 8 Programmer"
+               class="javaSE8logo"
+               src="assets/img/oracle-badge.png"></a>
+      </div>
+    </div>
+    <a aria-label="GitHub" class="iconLink" href="https://github.com/joelcancela" rel="noreferrer" target="_blank"><i
+      class="fa fa-github-square fa-2x"></i>
+    </a>
+  </div>
+</div>
+<div class="text-center">
+  <a [routerLink]="'../contact'" class="btn btn-info">{{'mainPage.profile.contactMe' | translate}}</a>
+</div>
+<br>
+<p>{{'mainPage.profile.aboutMe1' | translate}}</p>
+<p>{{'mainPage.profile.aboutMe2' | translate}}</p>
+<p>{{'mainPage.profile.aboutMe3' | translate}}</p>
+<p>{{'mainPage.profile.aboutMe4' | translate}}</p>
+<div *ngIf="showCVdownloadLinks" class="text-center">
+  <a class="btn btn-sm btn-danger mr-2" href="./dl/CV/CV_CANCELA_VAZ_Joël_fr.pdf" rel="noreferrer"
+     role="button" target="_blank"><i
+    class="fa fa-download"></i>&nbsp;{{'mainPage.profile.dlCVfr' | translate}}</a>
+  <a class="btn btn-sm btn-danger" href="./dl/CV/CV_CANCELA_VAZ_Joël_en.pdf" rel="noreferrer"
+     role="button" target="_blank"><i
+    class="fa fa-download"></i>&nbsp;{{'mainPage.profile.dlCVen' | translate}}</a>
+</div>

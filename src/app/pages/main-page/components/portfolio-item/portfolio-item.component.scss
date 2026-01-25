@@ -1,0 +1,84 @@
+.portfolio-item {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid #d5d5d5;
+  border-radius: 2px;
+}
+
+.portfolio-item img {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.portfolio-item .portfolio-item-inner {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  transition: all 0.4s ease-in-out;
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio-item .portfolio-item-inner .portfolio-item-title {
+  color: #fff;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.6);
+  align-self: center;
+  width: 100%;
+}
+
+.portfolio-item h2 {
+  word-break: break-word;
+  font-size: 17px;
+}
+
+.portfolio-item .portfolio-item-animation {
+  display: flex;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  opacity: 0;
+  transform: scale(1.5);
+  transition: all 0.4s ease-in-out;
+  font-weight: normal;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.portfolio-item-animation .portfolio-item-animation-text {
+  border: 1px solid #fff;
+  width: 90%;
+  height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
+
+.portfolio-item:hover .portfolio-item-animation {
+  opacity: 1;
+  transform: scale(1);
+  background-color: rgba(0, 0, 0, 0.90);
+}
+
+.portfolio-item:hover img {
+  transform: scale(1);
+}
+
+.portfolio-item h2, .portfolio-item img {
+  transition: all 0.4s ease-in-out;
+}

@@ -1,0 +1,22 @@
+<section class="mt-3">
+  <div class="row">
+    <div class="col-12 text-center">
+      <div *ngIf="AppComponent.language == Language.en; else frenchBlock" class="row">
+        <div class="col-md-6 offset-md-3 col-sm-12 projects-title">
+          <h2 class="sky underline">{{'mainPage.projects.title' | translate}}</h2>
+        </div>
+        <div class="col-md-3 col-sm-12">
+          <div class="alert alert-warning mb-0" role="alert">
+            Projects descriptions are not translated yet.
+          </div>
+        </div>
+      </div>
+      <ng-template #frenchBlock>
+        <h2 class="sky underline">{{'mainPage.projects.title' | translate}}</h2>
+      </ng-template>
+      <h3 class="my-3">{{'mainPage.projects.subtitle' | translate}}</h3><br>
+    </div>
+    <hr>
+  </div>
+  <ngjc-portfolio></ngjc-portfolio>
+</section>
