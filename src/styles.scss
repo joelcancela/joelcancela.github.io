@@ -1,0 +1,113 @@
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
+
+/* You can add global styles to this file, and also import other style files */
+$sky: #0088cc;
+$navbar-offset: 4rem;
+
+main {
+  padding-top: $navbar-offset;
+}
+
+.jumbotron {
+  padding-top: 1rem;
+}
+
+body {
+  font: 15px 'Open Sans', Arial, Helvetica, sans-serif;
+  background: #222222 url('/assets/img/coding-poster.png') no-repeat center fixed;
+  background-size: cover;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.sky, p.sky::first-letter, .sky-fl::first-letter, a, a:hover {
+  color: $sky;
+}
+
+.sky-fl {
+  display: inline-block;
+}
+
+.bg-dark {
+  background-color: #222222 !important;
+}
+
+.btn-info, .btn-info:hover {
+  background-color: $sky;
+  border-color: $sky;
+}
+
+.jumboItem {
+  border: #777 solid 2px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.underline {
+  display: inline;
+  border-bottom: 2px solid #d5d5d5;
+}
+
+// Bootstrap carousel
+
+.carousel-item img {
+  max-height: 60vh;
+}
+
+
+.carousel-legend {
+  background-color: rgba(0, 0, 0, 0.35);
+  display: inline;
+  padding: 0 10px;
+  border-radius: 7px;
+}
+
+.carousel-control-prev {
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .0001) 100%);
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .0001) 100%);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .5)), to(rgba(0, 0, 0, .0001)));
+  background-image: linear-gradient(to right, rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .0001) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+  background-repeat: repeat-x;
+}
+
+.carousel-control-next {
+  right: 0;
+  left: auto;
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, .0001) 0, rgba(0, 0, 0, .5) 100%);
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, .0001) 0, rgba(0, 0, 0, .5) 100%);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .0001)), to(rgba(0, 0, 0, .5)));
+  background-image: linear-gradient(to right, rgba(0, 0, 0, .0001) 0, rgba(0, 0, 0, .5) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+  background-repeat: repeat-x;
+}
+
+// Modal logo
+
+.modal-logo {
+  max-height: 120px;
+}
+
+// Flags
+
+.flag-icon-fr {
+  background-image: url('/assets/flags/fr.svg');
+}
+
+.flag-icon-gb {
+  background-image: url('/assets/flags/gb.svg');
+}
+
+.flag-icon {
+  background-size: contain;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  position: relative;
+  display: inline-block;
+  width: 0.9em;
+  line-height: 1em;
+  height: 0.8em;
+}

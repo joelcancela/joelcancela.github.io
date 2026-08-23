@@ -1,0 +1,20 @@
+.filter-link {
+  cursor: pointer;
+}
+
+.portfolio-sorting {
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-bottom: 48px;
+}
+
+.portfolio-sorting a {
+  color: #808080;
+  text-decoration: none;
+  padding: 0;
+}
+
+.portfolio-sorting a:hover, .portfolio-sorting a.active {
+  color: #2980b9;
+  border-bottom: 2px solid #2980b9;
+}

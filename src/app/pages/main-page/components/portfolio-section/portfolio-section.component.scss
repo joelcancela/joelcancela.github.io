@@ -1,0 +1,10 @@
+h3 {
+  font-size: 24px;
+}
+
+.projects-title {
+  @media (max-width:801px) {
+    /* max tablet, landscape iPad, lo-res laptops ands desktops */
+    padding-bottom: 0.5em;
+  }
+}
