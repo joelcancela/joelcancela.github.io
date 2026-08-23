@@ -1,0 +1,26 @@
+<button (click)="open(content)" [attr.aria-label]="project.name" class="portfolio-item" type="button">
+  <img [alt]="project.name" [src]="imagePath">
+  <div class="portfolio-item-inner">
+    <div class="portfolio-item-animation">
+      <div class="portfolio-item-animation-text">
+        <span>{{'mainPage.projects.knowMore' | translate}}</span>
+      </div>
+    </div>
+    <div class="portfolio-item-title">
+      <h2>{{project.name}}</h2>
+    </div>
+  </div>
+</button>
+<ng-template #content let-modal>
+  <div class="modal-header">
+    <h4 class="modal-title" id="modal-basic-title">{{project.name}}</h4>
+    <button (click)="modal.dismiss()" aria-label="Close" class="btn-close" type="button"></button>
+  </div>
+    <div [innerHTML]="(AppComponent.language === LanguageEnum.en ? project.html_en : project.html) | translate | trustHtml"
+      class="modal-body">
+  </div>
+  <div class="modal-footer">
+    <button (click)="modal.dismiss()" aria-label="Close" class="btn btn-light"
+            type="button">{{'mainPage.projects.close' | translate}}</button>
+  </div>
+</ng-template>

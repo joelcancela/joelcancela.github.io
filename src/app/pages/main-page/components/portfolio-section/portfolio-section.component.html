@@ -1,0 +1,18 @@
+<section class="mt-3">
+  <div class="row">
+    <div class="col-12 text-center">
+      @if (AppComponent.language === Language.en) {
+        <div class="row">
+          <div class="col-12 projects-title">
+            <h2 class="sky underline">{{'mainPage.projects.title' | translate}}</h2>
+          </div>
+        </div>
+      } @else {
+        <h2 class="sky underline">{{'mainPage.projects.title' | translate}}</h2>
+      }
+      <h3 class="my-3">{{'mainPage.projects.subtitle' | translate}}</h3><br>
+    </div>
+    <hr>
+    </div>
+    <ngjc-portfolio></ngjc-portfolio>
+  </section>
