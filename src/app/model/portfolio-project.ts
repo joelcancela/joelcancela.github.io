@@ -3,4 +3,5 @@ export class PortfolioProject {
   path: string;
   type: string;
   html: string;
+  html_en: string;
 }

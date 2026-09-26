@@ -1,6 +1,8 @@
 import { Component, Input, OnChanges, OnInit, ViewEncapsulation } from '@angular/core';
 import { PortfolioProject } from '../../../../model/portfolio-project';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
+import { AppComponent } from '../../../../app.component';
+import { Language } from '../../../../model/enums/language.enum';
 
 @Component({
   selector: 'ngjc-portfolio-item',
@@ -15,6 +17,8 @@ export class PortfolioItemComponent implements OnInit, OnChanges {
   readonly pathToPortfolio: string = 'assets/portfolio/';
   readonly thumbnailFile: string = '/tmb/1.png';
   imagePath = '';
+  AppComponent = AppComponent;
+  LanguageEnum = Language;
 
   constructor(private modalService: NgbModal) {
   }
