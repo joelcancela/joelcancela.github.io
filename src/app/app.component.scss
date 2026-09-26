@@ -11,12 +11,11 @@
 }
 
 footer {
-  position: fixed;
-  bottom: 0;
+  position: static;
   width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 4vh;
-  line-height: 4vh;
+  min-height: 4vh;
+  padding: 0.5rem 0;
+  line-height: 1.5;
   background-color: #f5f5f5;
 }
 
