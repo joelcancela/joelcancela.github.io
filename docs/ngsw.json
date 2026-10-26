@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1793051184089,
+  "timestamp": 1793051547379,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -40,7 +40,6 @@
         "/assets/icons/icon-512x512.png",
         "/assets/icons/icon-72x72.png",
         "/assets/icons/icon-96x96.png",
-        "/assets/img/coding-poster.png",
         "/assets/img/oracle-badge.png",
         "/assets/img/profil.png",
         "/assets/portfolio/Flashget_3.7_french_traduction/img/1.png",
@@ -204,7 +203,6 @@
     "/assets/icons/icon-512x512.png": "d39e7c88d0352203c91b55a26ca951e34dfdafad",
     "/assets/icons/icon-72x72.png": "09524e4d7e8c259a5a6ba1f812559e13620eb2f8",
     "/assets/icons/icon-96x96.png": "7fea91bbce35c344aa993bfa0004c14bf71d007a",
-    "/assets/img/coding-poster.png": "00d32b8949529eb5504e3b19331350a5e0d5b4c8",
     "/assets/img/oracle-badge.png": "2f2409203ada17db8411db449f2b6f0cdb7cf06e",
     "/assets/img/profil.png": "1648c9dcdb937c79339716864ad2051eee2b93f5",
     "/assets/portfolio/Flashget_3.7_french_traduction/img/1.png": "ee2638abb94029f7c13029d9ecac4ac9243437aa",
@@ -335,11 +333,11 @@
     "/assets/portfolio/Yu-Gi-Oh_Sky.js/tmb/1.png": "96fa532738243445e9967532fb1602bad3b27378",
     "/assets/portfolio/portfolio.json": "fe3e3ade069debe7af9a698351db2e071fc6791b",
     "/favicon.ico": "07413918a64a8c55f6c65b7d54cd24cffec7903b",
-    "/index.html": "00c1d2e7895c8a03cb7479ff911fa109db066719",
+    "/index.html": "97db27a9501e94ba19313ac8c7ae9f409611d920",
     "/main.js": "2361b53f84c198f2d73d7e381d09ec833b095252",
     "/manifest.webmanifest": "d798a3b2d00a19017c7ea97721e009aabc6c518e",
     "/polyfills.js": "38c9b370c0e9f9f932fe77ca39c98f09dc174b4d",
-    "/styles.css": "8c650ca0b216d7430a9871e0cd6c91c240d7a48e"
+    "/styles.css": "e83cc6e909ecf075bef430423a1a90f213428108"
   },
   "navigationUrls": [
     {

@@ -25,14 +25,6 @@ main {
   }
 }
 
-body {
-  background:
-    radial-gradient(900px 500px at 85% -10%, rgba(0, 240, 255, 0.12), transparent 60%),
-    linear-gradient(rgba(0, 0, 15, 0.86), rgba(0, 0, 15, 0.94)),
-    #00000f url('/assets/img/coding-poster.png') no-repeat center fixed;
-  background-size: auto, auto, cover;
-}
-
 html {
   scroll-behavior: smooth;
 }
