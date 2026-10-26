@@ -1,3 +1,43 @@
 h4 {
-  font-size: 18px;
+  margin: 1.5rem 0 0.75rem;
+  font-size: 16px;
+  color: var(--sf-yellow);
+}
+
+.jumbotron > h4:first-child {
+  margin-top: 0;
+}
+
+.jumboItem h4:first-child {
+  margin-top: 0;
+}
+
+.row > .col-md-6:first-child {
+  color: var(--sf-muted);
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+p {
+  color: var(--sf-fg-secondary);
+  line-height: 1.7;
+}
+
+.alert {
+  background: rgba(255, 255, 255, 0.03); // même fond que .jumboItem
+  color: var(--sf-fg-secondary);
+  font-size: 0.9rem;
+  line-height: 1.7;
+}
+
+.alert strong {
+  color: var(--sf-yellow);
+  font-family: var(--sf-font-display);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.alert ul {
+  padding-left: 1.25rem;
 }

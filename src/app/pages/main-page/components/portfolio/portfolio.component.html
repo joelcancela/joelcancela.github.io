@@ -1,19 +1,19 @@
 <div class="container">
   <div class="portfolio-sorting d-flex justify-content-center flex-wrap">
     <button (click)="currentFilter=portfolioTypeFilterEnum.ALL" [attr.aria-pressed]="currentFilter === portfolioTypeFilterEnum.ALL"
-    [class.active]="currentFilter === portfolioTypeFilterEnum.ALL" class="filter-link me-2" type="button">
+    [class.active]="currentFilter === portfolioTypeFilterEnum.ALL" class="filter-link sf-filter" type="button">
       {{'mainPage.projects.selector.all' | translate}}
     </button>
     <button (click)="currentFilter=portfolioTypeFilterEnum.PERSONAL" [attr.aria-pressed]="currentFilter === portfolioTypeFilterEnum.PERSONAL"
-    [class.active]="currentFilter === portfolioTypeFilterEnum.PERSONAL" class="filter-link me-2" type="button">
+    [class.active]="currentFilter === portfolioTypeFilterEnum.PERSONAL" class="filter-link sf-filter" type="button">
       {{'mainPage.projects.selector.personal' | translate}}
     </button>
     <button (click)="currentFilter=portfolioTypeFilterEnum.PROFESSIONAL" [attr.aria-pressed]="currentFilter === portfolioTypeFilterEnum.PROFESSIONAL"
-    [class.active]="currentFilter === portfolioTypeFilterEnum.PROFESSIONAL" class="filter-link me-2" type="button">
+    [class.active]="currentFilter === portfolioTypeFilterEnum.PROFESSIONAL" class="filter-link sf-filter" type="button">
       {{'mainPage.projects.selector.professional' | translate}}
     </button>
     <button (click)="currentFilter=portfolioTypeFilterEnum.SCHOOL" [attr.aria-pressed]="currentFilter === portfolioTypeFilterEnum.SCHOOL"
-    [class.active]="currentFilter === portfolioTypeFilterEnum.SCHOOL" class="filter-link me-2" type="button">
+    [class.active]="currentFilter === portfolioTypeFilterEnum.SCHOOL" class="filter-link sf-filter" type="button">
       {{'mainPage.projects.selector.school' | translate}}
     </button>
   </div>

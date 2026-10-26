@@ -1,4 +1,4 @@
-<button (click)="open(content)" [attr.aria-label]="project.name" class="portfolio-item" type="button">
+<button (click)="open(content)" [attr.aria-label]="project.name" class="portfolio-item sf-panel card-hover" type="button">
   <img [alt]="project.name" [src]="imagePath">
   <div class="portfolio-item-inner">
     <div class="portfolio-item-animation">
@@ -7,7 +7,7 @@
       </div>
     </div>
     <div class="portfolio-item-title">
-      <h2>{{project.name}}</h2>
+      <span class="portfolio-item-name">{{project.name}}</span>
     </div>
   </div>
 </button>
