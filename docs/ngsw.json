@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1793051547379,
+  "timestamp": 1793052440663,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -337,7 +337,7 @@
     "/main.js": "2361b53f84c198f2d73d7e381d09ec833b095252",
     "/manifest.webmanifest": "d798a3b2d00a19017c7ea97721e009aabc6c518e",
     "/polyfills.js": "38c9b370c0e9f9f932fe77ca39c98f09dc174b4d",
-    "/styles.css": "e83cc6e909ecf075bef430423a1a90f213428108"
+    "/styles.css": "c7cc7341ab7f230103f9b46d89dbcef3ca1175bb"
   },
   "navigationUrls": [
     {
