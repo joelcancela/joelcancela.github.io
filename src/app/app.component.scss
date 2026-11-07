@@ -1,0 +1,23 @@
+.dropdown-toggle {
+  cursor: pointer;
+}
+
+.nav-link.inactive {
+  color: rgba(255, 255, 255, .5) !important;
+}
+
+footer {
+  position: static;
+  width: 100%;
+  min-height: 4vh;
+  padding: 0.5rem 0;
+  line-height: 1.5;
+}
+
+nav {
+  color: white;
+}
+
+.dropdown-menu {
+  margin-top: 0.5rem;
+}

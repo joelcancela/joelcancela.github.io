@@ -1,0 +1,126 @@
+/* You can add global styles to this file, and also import other style files */
+$sky: var(--sf-turquoise);
+$navbar-offset: 4rem;
+
+main {
+  padding-top: $navbar-offset;
+}
+
+.jumbotron {
+  margin-bottom: 2rem;
+  padding: 2rem 1rem;
+  padding-top: 1rem;
+}
+
+@media (min-width: 576px) {
+  .jumbotron {
+    padding: 4rem 2rem;
+    padding-top: 1rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  color: var(--sf-turquoise);
+}
+
+a:hover {
+  color: var(--sf-yellow);
+}
+
+.sky, p.sky::first-letter, .sky-fl::first-letter {
+  color: $sky;
+}
+
+.sky-fl {
+  display: inline-block;
+}
+
+.underline {
+  display: inline-block;
+  padding-bottom: 0.3rem;
+  line-height: 1.2;
+  border-bottom: 2px solid var(--sf-yellow);
+}
+
+// Bootstrap carousel
+
+.carousel-item img {
+  max-height: 60vh;
+}
+
+
+.carousel-legend {
+  background-color: rgba(0, 0, 0, 0.35);
+  display: inline;
+  padding: 0 10px;
+  border-radius: 7px;
+}
+
+.carousel-control-prev {
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .0001) 100%);
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .0001) 100%);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .5)), to(rgba(0, 0, 0, .0001)));
+  background-image: linear-gradient(to right, rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .0001) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+  background-repeat: repeat-x;
+}
+
+.carousel-control-next {
+  right: 0;
+  left: auto;
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, .0001) 0, rgba(0, 0, 0, .5) 100%);
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, .0001) 0, rgba(0, 0, 0, .5) 100%);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .0001)), to(rgba(0, 0, 0, .5)));
+  background-image: linear-gradient(to right, rgba(0, 0, 0, .0001) 0, rgba(0, 0, 0, .5) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+  background-repeat: repeat-x;
+}
+
+// Modal logo
+
+.modal-logo {
+  max-height: 120px;
+}
+
+// Flags
+
+.flag-icon-fr {
+  background-image: url('/assets/flags/fr.svg');
+}
+
+.flag-icon-gb {
+  background-image: url('/assets/flags/gb.svg');
+}
+
+.flag-icon {
+  background-size: contain;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  width: 0.9em;
+  line-height: 1em;
+  height: 0.8em;
+}
+
+// Centre verticalement le drapeau et le libell\u00e9 de langue (bouton de la navbar et items du menu)
+#languageDropdown {
+  display: inline-flex;
+  align-items: center;
+}
+
+.dropdown-item:has(.flag-icon) {
+  display: flex;
+  align-items: center;
+}
